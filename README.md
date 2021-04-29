@@ -8,3 +8,5 @@
 8. pip install -r requirements.txt
 9. manage.py runserver
 10. tesztek futtatása: manage.py test
+
+unit branch-en összetettebb példa
