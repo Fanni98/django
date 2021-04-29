@@ -1,0 +1,14 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Home🏠</h1>
+  
+  <ul>
+    <li><strong>Könyvek:</strong> {{ num_books }}</li>
+    <li><strong>Pédányok:</strong> {{ num_instances }}</li>
+    <li><strong>Elérhető példányok:</strong> {{ num_instances_available }}</li>
+    <li><strong>Írók:</strong> {{ num_authors }}</li>
+  </ul>
+
+  <p>You have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.</p>
+{% endblock %}
