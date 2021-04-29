@@ -6,6 +6,5 @@
 6. activate
 7. cd../.. kimegyünk a django mappáig
 8. pip install -r requirements.txt
-9. belépünk a mysite mappába cd mysite
-10. manage.py runserver
-11. tesztek futtatása: manage.py test
+9. manage.py runserver
+10. tesztek futtatása: manage.py test
