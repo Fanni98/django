@@ -1,0 +1,11 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Cím: {{ book.title }}</h1>
+
+  <p><strong>Szerző:</strong> 
+    <a href="{% url 'author-detail' book.pk %}">{{ book.author.all|join:", " }}</a></p> 
+ 
+
+
+{% endblock %}
