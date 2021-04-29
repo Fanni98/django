@@ -1,4 +1,4 @@
-git clone-nal szedjük le
+git clone https://github.com/Fanni98/django.git
 1. parancssorba: pip install virtualenv
 2. cd django
 3. virtualenv venv
