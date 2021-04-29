@@ -8,4 +8,4 @@ git clone https://github.com/Fanni98/django.git
 7. cd../..
 8. belépünk a mysite mappába cd mysite
 9. manage.py runserver
-10 tesztek futtatása: manage.py test
+10. tesztek futtatása: manage.py test
