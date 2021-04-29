@@ -4,8 +4,8 @@
 4. virtualenv venv
 5. cd venv\Scripts
 6. activate
-7. cd../..
-8. belépünk a mysite mappába cd mysite
-9. pip install -r requirements.txt
+7. cd../.. kimegyünk a django mappáig
+8. pip install -r requirements.txt
+9. belépünk a mysite mappába cd mysite
 10. manage.py runserver
 11. tesztek futtatása: manage.py test
